@@ -1,0 +1,23 @@
+{
+    "name": "machine/mdxbuilder",
+    "description": "MDX Query Builder",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "src/helpers/converter.php"
+        ],
+        "psr-4": {
+            "Machine\\MdxBuilder\\": "src/",
+            "Tests\\": "./tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "RSV"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "10.5.x-dev"
+    }
+}

@@ -1,0 +1,4 @@
+.idea/
+compose-full.yaml
+/mysql-data
+www/vendor/
