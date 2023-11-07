@@ -1,0 +1,9 @@
+Для запуска проекта через docker:
+0. Изменить пути к проекту в файле compose.yaml
+1. Сборка и запуск контейнеров
+-> docker compose up -d
+2. Установка пакетов через composer
+-> docker exec -it tp-phpfpm composer install
+3. Запуск тестов:
+3.a. -> docker exec -it tp-phpfpm bash
+3.b. -> vendor/bin/phpunit tests
